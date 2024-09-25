@@ -1,68 +1,66 @@
-/* PostDetails.css */
-
 .post-details-container {
     padding: 20px;
-    background-color: #f8f9fa; /* Light background for contrast */
+    background-color: #f8f9fa;
 }
 
 h2 {
-    color: #343a40; /* Darker text for post title */
+    color: #343a40;
 }
 
 p {
-    color: #495057; /* Slightly lighter text for post body */
-    line-height: 1.6; /* Improved line spacing */
+    color: #495057;
+    line-height: 1.6;
 }
 
 .comments-section {
     margin-top: 30px;
     padding: 15px;
-    border: 1px solid #dee2e6; /* Light border around comments section */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #ffffff; /* White background for comments */
+    border: 1px solid #dee2e6; 
+    border-radius: 5px; 
+    background-color: #ffffff;
 }
 
 .comment {
     padding: 10px;
-    border-bottom: 1px solid #e9ecef; /* Light border between comments */
+    border-bottom: 1px solid #e9ecef;
 }
 
 .comment:last-child {
-    border-bottom: none; /* Remove border from last comment */
+    border-bottom: none; 
 }
 
 .comment h5 {
-    margin: 0; /* Remove margin for heading */
-    color: #007bff; /* Link color for comment name */
+    margin: 0; 
+    color: #007bff;
 }
 
 .comment small {
-    display: block; /* Show email on a new line */
-    color: #6c757d; /* Light grey for email */
-    margin-top: 5px; /* Space between name and email */
+    display: block; 
+    color: #6c757d;
+    margin-top: 5px; 
 }
 
 .add-comment-form {
     margin-top: 20px;
     padding: 15px;
-    border: 1px solid #dee2e6; /* Light border around comment form */
-    border-radius: 5px; /* Rounded corners */
-    background-color: #ffffff; /* White background for form */
+    border: 1px solid #dee2e6; 
+    border-radius: 5px;
+    background-color: #ffffff; 
 }
 
 .add-comment-form h4 {
-    margin-bottom: 15px; /* Space below heading */
+    margin-bottom: 15px; 
 }
 
 .add-comment-form .form-control {
-    margin-bottom: 10px; /* Space between input fields */
+    margin-bottom: 10px; 
 }
 
 .btn-success {
-    width: 100%; /* Full-width button for better usability */
+    width: 100%; 
 }
 
 .spinner-border {
-    width: 3rem; /* Set custom size for loading spinner */
+    width: 3rem;
     height: 3rem;
 }
