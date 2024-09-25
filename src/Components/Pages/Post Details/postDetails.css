@@ -1,0 +1,68 @@
+/* PostDetails.css */
+
+.post-details-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+h2 {
+    color: #343a40; /* Darker text for post title */
+}
+
+p {
+    color: #495057; /* Slightly lighter text for post body */
+    line-height: 1.6; /* Improved line spacing */
+}
+
+.comments-section {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #dee2e6; /* Light border around comments section */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ffffff; /* White background for comments */
+}
+
+.comment {
+    padding: 10px;
+    border-bottom: 1px solid #e9ecef; /* Light border between comments */
+}
+
+.comment:last-child {
+    border-bottom: none; /* Remove border from last comment */
+}
+
+.comment h5 {
+    margin: 0; /* Remove margin for heading */
+    color: #007bff; /* Link color for comment name */
+}
+
+.comment small {
+    display: block; /* Show email on a new line */
+    color: #6c757d; /* Light grey for email */
+    margin-top: 5px; /* Space between name and email */
+}
+
+.add-comment-form {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #dee2e6; /* Light border around comment form */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #ffffff; /* White background for form */
+}
+
+.add-comment-form h4 {
+    margin-bottom: 15px; /* Space below heading */
+}
+
+.add-comment-form .form-control {
+    margin-bottom: 10px; /* Space between input fields */
+}
+
+.btn-success {
+    width: 100%; /* Full-width button for better usability */
+}
+
+.spinner-border {
+    width: 3rem; /* Set custom size for loading spinner */
+    height: 3rem;
+}
